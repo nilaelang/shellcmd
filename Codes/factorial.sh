@@ -1,12 +1,11 @@
 #!/bin/bash
-echo "Factorial Calculation Script. .."
 echo "Enter a number: "
-read f
+read n
 fact=1
 factorial=1
-while [ $fact -le $f ]
+while [ $fact -le $n ]
 do
 factorial=$((factorial*fact))
 fact=$((fact+1))
 done
-echo "Factorial of $f = $factorial"
+echo "Factorial of $n = $factorial"

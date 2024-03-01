@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo " Enter 1st number :"
+read a
+echo " Enter 2nd number :"
+read b
+Sum = $(($a+$b))
+echo " Sum of $a and $b is $Sum "
+|   E101      | John Doe  |   Engineering   |   Software Eng  |  $80,000   |
+|   E102      | Jane Smith|   Marketing     |   Marketing Spc |  $75,000   |
+|   E103      | Bob Johnson|  Human Resources|   HR Manager    |  $90,000   |
+|   E104      | Emily White|   Finance       |   Accountant    |  $85,000   |
+|   E105      | Alex Brown|   Engineering   |   QA Engineer    |  $78,000   |
+|   E106      | Sarah Lee  |   Marketing     |   Sales Rep     |  $70,000   |
+|   E107      | Mike Clark |   Finance       |   Financial Anl |  $88,000   |
+|   E108      | Lisa Davis |   Engineering   |   Project Mgr   |  $95,000   |
+|   E109      | Kevin Chen |   Human Resources|  HR Specialist  |  $80,000   |
+|   E110      | Laura Hall |   Marketing     |   Product Mgr   | $100,000   |
+| Employee ID |   Name    |   Department   |    Position    |   Salary   |
+|-------------|-----------|-----------------|-----------------|------------|
